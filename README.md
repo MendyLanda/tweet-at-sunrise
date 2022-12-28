@@ -9,6 +9,7 @@ This project is a simple Twitter bot that tweets a message at sunrise in a speci
     *   pytz
     *   tweepy
     *   astral
+    *   pyyaml
 
 ## Setup
 
@@ -48,8 +49,8 @@ If you want to use placeholders in your tweet content, you can customize the `pl
 *   The [astral](https://github.com/sffjunkie/astral) library was used to calculate the sunrise time.
 *   The [pytz](https://github.com/newvem/pytz) library was used to handle time zones.
 *   The [tweepy](https://github.com/tweepy/tweepy) library was used to access the Twitter API.
-
+*   The [pyyaml](https://github.com/yaml/pyyaml) library was used to read the configuration file.
 ## License
-MIT License
+[MIT License](LICENSE)
 
 to get all installed packages in your virtual environment run: pip freeze > requirements.txt

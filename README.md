@@ -13,7 +13,7 @@ This project is a simple Twitter bot that tweets a message at sunrise in a speci
 ## Setup
 
 1.  Clone or download the project files.
-2.  Create a virtual environment for the project and install the necessary packages. You can use the following commands to create a virtual environment and install the necessary packages:
+2.  Create a virtual environment for the project and install the necessary packages:
         `python3 -m venv venv`
         `source venv/bin/activate`
         `pip install -r requirements.txt`

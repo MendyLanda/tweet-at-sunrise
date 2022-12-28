@@ -1,0 +1,18 @@
+# Twitter API configuration
+consumerKey: YOUT_CONSUMER_KEY # AKA API Key
+consumerSecret: YOUR_CONSUMER_SECRET # AKA API Secret Key
+accessToken: YOUR_ACCESS_TOKEN
+accessTokenSecret: YOUR_ACCESS_TOKEN_SECRET
+
+# Set the city you want the sunrise time for
+# For a list of supported cities, see https://sffjunkie.github.io/astral/#cities
+city: Jerusalem
+
+# Set the content of your tweet
+# Line breaks will be inserted as on screen
+# Beware of twitter maximum charecters. 
+# You can add placeholders for dynamic content by using the following syntax: {1} {2} {3} ... (starting from 1)
+# Placeholders can be used in any order and can be repeated as many times as you want
+tweetContent: |
+   It's {1} and @WhatsApp still doesn't have scheduled messages. 
+   #WhatsApp #WhatsAppScheduledMessages #WhatsAppScheduledMessages {1}

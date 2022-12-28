@@ -1,4 +1,4 @@
-# tweet-on-sunrise
+# tweet-at-sunrise
 
 This project is a simple Twitter bot that tweets a message at sunrise in a specified city.
 

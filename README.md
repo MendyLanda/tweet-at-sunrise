@@ -52,5 +52,3 @@ If you want to use placeholders in your tweet content, you can customize the `pl
 *   The [pyyaml](https://github.com/yaml/pyyaml) library was used to read the configuration file.
 ## License
 [MIT License](LICENSE)
-
-to get all installed packages in your virtual environment run: pip freeze > requirements.txt

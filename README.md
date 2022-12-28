@@ -13,13 +13,17 @@ This project is a simple Twitter bot that tweets a message at sunrise in a speci
 ## Setup
 
 1.  Clone or download the project files.
-2.  Create a new Twitter app at [https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
-3.  Generate the necessary API keys and access tokens for your app.
-4.  Rename the `config_template.yml` file to `config.yml` and fill in the necessary values with your API keys and access tokens.
-5.  Set the city you want the sunrise time for in the `config.yml` file. A list of supported cities can be found at [https://sffjunkie.github.io/astral/#cities](https://sffjunkie.github.io/astral/#cities).
-6.  Set the content of your tweet in the `config.yml` file. You can use placeholders (e.g. `{1}`, `{2}`, etc.) in your tweet content to insert dynamic values.
-7.  If you want to use placeholders in your tweet content, edit the `placeholders` list in the `tweet_parameters.py` file with the values you want to use.
-8.  Run the `main.py` file to start the bot.
+2.  Create a virtual environment for the project and install the necessary packages. You can use the following commands to create a virtual environment and install the necessary packages:
+        `python3 -m venv venv`
+        `source venv/bin/activate`
+        `pip install -r requirements.txt`
+3.  Create a new Twitter app at [https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
+4.  Generate the necessary API keys and access tokens for your app.
+5.  Rename the `config_template.yml` file to `config.yml` and fill in the necessary values with your API keys and access tokens.
+6.  Set the city you want the sunrise time for in the `config.yml` file. A list of supported cities can be found at [https://sffjunkie.github.io/astral/#cities](https://sffjunkie.github.io/astral/#cities).
+7.  Set the content of your tweet in the `config.yml` file. You can use placeholders (e.g. `{1}`, `{2}`, etc.) in your tweet content to insert dynamic values.
+8.  If you want to use placeholders in your tweet content, edit the `placeholders` list in the `tweet_parameters.py` file with the values you want to use.
+9.  Run the `main.py` file to start the bot.
 
 ## Customization
 
@@ -47,3 +51,5 @@ If you want to use placeholders in your tweet content, you can customize the `pl
 
 ## License
 MIT License
+
+to get all installed packages in your virtual environment run: pip freeze > requirements.txt

@@ -10,8 +10,10 @@
 # "Hello World! It is currently sunny in New York."                         #
 #############################################################################
 
-# dont change the variable name
-# values are strings (e.g. "Hello World!" or e.g. datetime.datetime.now())
+# dont change the variable name "placeholders" you can edit anything else
+# values are strings or convertiable (e.g. "Hello World!" or e.g. datetime.now())
+from datetime import datetime  # just an example
+
 placeholders = [
-    
+    datetime.now().year,  # just an example
 ]

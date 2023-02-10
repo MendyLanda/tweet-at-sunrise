@@ -2,15 +2,6 @@
 
 This project is a simple Twitter bot that tweets a message at sunrise in a specified city.
 
-## Requirements
-
-*   Python 3.6+
-*   The following Python packages:
-    *   pytz
-    *   tweepy
-    *   astral
-    *   pyyaml
-
 ## Setup
 
 1.  Clone or download the project files.
@@ -44,11 +35,6 @@ If you want to use placeholders in your tweet content, you can customize the `pl
 *   Make sure you filled in the necessary values in the `config.yml` file.
 *   If you get an error message saying that the `config.yml` file is missing, make sure you renamed the `config_template.yml` file to `config.yml`.
 *   If you get an error 403 when trying to access the Twitter API, make sure you filled in the correct API keys and access tokens in the `config.yml` file. and that you have **write access** to the Twitter account you are trying to tweet from.
-## Acknowledgements
 
-*   The [astral](https://github.com/sffjunkie/astral) library was used to calculate the sunrise time.
-*   The [pytz](https://github.com/newvem/pytz) library was used to handle time zones.
-*   The [tweepy](https://github.com/tweepy/tweepy) library was used to access the Twitter API.
-*   The [pyyaml](https://github.com/yaml/pyyaml) library was used to read the configuration file.
 ## License
 [MIT License](LICENSE)
